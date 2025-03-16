@@ -1,20 +1,25 @@
-def feb(n):
+# # feoacive series
 
-    if(n==1):
-        return(1)
-    elif(n==0):
-        return 0
-    else:
-        return feb(n-1)+feb(n-2)
-print(feb(5))
+# def feb(n):
 
-def series(tera):
-    if term <= 1:
-        return term
-    else:
-        return series(term-1) + series(term-2)
-for i in range(3):
-    print(series(i))
+#     if(n==1):
+#         return(1)
+#     elif(n==0):
+#         return 0
+#     else:
+#         return feb(n-1)+feb(n-2)
+# print(feb(5))
+
+# def series(tera):
+#     if term <= 1:
+#         return term
+#     else:
+#         return series(term-1) + series(term-2)
+# for i in range(3):
+#     print(series(i))
+
+
+# factorial in recursion
 
 def fac(n):
     if n==1 or n==0:
@@ -22,6 +27,9 @@ def fac(n):
     else:
         return n*fac(n-1)
 print(fac(7))
+
+
+# define classes
 
 
 # def add(a,b):
