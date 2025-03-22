@@ -26,7 +26,8 @@ def fac(n):
         return 1
     else:
         return n*fac(n-1)
-print(fac(7))
+n=int(input("Enter the factorial number:"))    
+print(f"the factorial is: {fac(n)}")
 
 
 # define classes
