@@ -24,6 +24,7 @@
 
 # PRACTISE SET
 
+# find the word in the file
 # a=open("poem.txt")
 # content=a.read()
 # if("Twinkle" in content):
@@ -32,7 +33,7 @@
 #     print("The word twinkle is not in the content")
 # a.close()    
 
-
+# generated the score
 # import random
 # def game():
 #     print("you playing the game . . . ")
@@ -52,13 +53,29 @@
 
 # game()
 
-n=int(input("ENTER THE NUMBER: "))
-def generatetable(n):
-    table=""
-    for i in range(1,11):
-        table +=f"{n}*{i}={n*i}\n"
-    with open(f"tables/table_{n}","w")  as f:
-      f.write(table)  
+# n=int(input("ENTER THE NUMBER: "))
+# print(f"you entered: {n}")
+# def generatetable(n):
 
-for i in range(2,21):
-    generatetable(i)
+# #  generated the file in folder in which table are genrated who you enterd the integer number
+#  with open(f"tables/tab_{n}","w") as f:
+#    for i in range(1,11):
+#     k=f"{n}*{i}={n*i}\n"
+#     f.write(k)
+
+# generatetable(n)
+
+# word convert to "####"
+# word=["donkey","grate","animal"]
+# a=open("file.text")
+# b=a.read()
+# for n in word:
+#  c=b.replace(n,"#####")
+# a=open("file.text","w")
+# b=a.write(c)
+
+# blank the file
+# a=open("hiscore.txt")
+# b=a.read()
+# c=open("hiscore.txt","w")
+# c.write("")
