@@ -30,19 +30,19 @@
 
 
 
-# constructor program
-class student:
-    fee=20000
-    sub="physics"
-    gender="male"
-    def __init__(self,fee,sub,gender):     # dunder method whish is automatically called
-        self.fee=fee
-        self.sub=sub
-        self.gender=gender
-        print("constructor")
+# # constructor program
+# class student:
+#     fee=20000
+#     sub="physics"
+#     gender="male"
+#     def __init__(self,fee,sub,gender):     # dunder method whish is automatically called
+#         self.fee=fee
+#         self.sub=sub
+#         self.gender=gender
+#         print("constructor")
 
-f=student(50000,"math","male")
-print(f.gender,f.sub,f.fee)
+# f=student(50000,"math","male")
+# print(f.gender,f.sub,f.fee)
 
 
 
@@ -58,5 +58,33 @@ print(f.gender,f.sub,f.fee)
 # obj=programmer("umair",90000,8675)  
 # print(obj.pin,obj.name,obj.salery,obj.company) 
 # obj=programmer("baker",90000,7564)  
-# print(obj.pin,obj.name,obj.salery,obj.company)    
-        
+# print(obj.pin,obj.name,obj.salery,obj.company)  
+
+ 
+# n=int(input("ENTER THE NUMBER: "))
+# class calcul:
+#     square=n*n
+#     cube=n*n*n
+#     squareroot=n**1/2
+
+#     def __init__(self):
+#         print(f"The cube is: {self.cube}\nThe square is: {self.square}\nThe squareroot is: {self.squareroot}")
+# c=calcul()
+
+
+from random import randint
+class train:
+    def __init__(self,trainNo):
+        self.trainNo=trainNo
+
+    def book(self,fro,to):
+            print(f"ticket is book on train no: {self.trainNo} form {fro} to {to}")
+    def getstatus(self):
+            print(f"the train: {self.trainNo} is on running!")
+    def getfare(self,fro,to) :
+            print(f"ticket is fare in train no: {self.trainNo} form {fro} to {to} is {randint(222,999)}")     
+t=train(1234)
+t.book("FSD","LAHORE")
+t.getstatus()
+t.getfare("FSD","LAHORE")
+
