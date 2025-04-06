@@ -42,13 +42,38 @@
 
 
 
-class method:
-    n=5
-    name="faiz"
-    @classmethod     # for mot change the class antribute
-    def num(cls):
-        print(f"The class antribute is {cls.n}  {cls.name}")
-a=method()
-a.name="faizan"
-a.n=10
-a.num()        
+# class method:
+#     n=5
+#     nam="faiz"
+#     @classmethod     # for not change the class antribute
+#     def num(cls):
+#         print(f"The class antribute is {cls.n} ,name: {cls.nam}")
+#     @property
+#     def name(self):
+#         return f"{self.fname} {self.lname}"
+#     @name.setter
+#     def name(self,value):
+#         self.fname=value.split(" ")[0]
+#         self.lname=value.split(" ")[1]
+
+
+# a=method()
+# a.nam="faizan"
+# a.n=10
+
+# a.name="Faizan jutt"
+# print(a.name)
+
+# a.num()        
+
+
+
+# class number:
+#     def __init__(self,n):
+#         self.n=n
+#     def __add__(self,num):
+#         return self.n +num.n
+# a=number(2)
+# b=number(3)
+# print(a+b)
+
